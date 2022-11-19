@@ -55,6 +55,20 @@ body {
   background-color: hsl(25, 80%, 51%);
 }
 
+.circleStar {
+  background-color: hsl(212, 16%, 21%);
+  color: hsl(218, 11%, 57%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 49px;
+  height: 47px;
+}
+
+.circleStar:hover {
+  cursor: pointer;
+}
+
 .circle-with-focus {
   background-color: hsl(220, 3%, 47%);
   color: white;
